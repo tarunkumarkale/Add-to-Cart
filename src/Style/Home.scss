@@ -1,0 +1,43 @@
+.home{
+    display: flex;
+    padding: 3rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    color: antiquewhite;
+}
+.productCard{
+    background-color: antiquewhite;
+    width: 200px;
+    margin: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: all 0.5s;
+    border-radius: 5px;
+    color: black;
+
+    >img{
+        height: 100%;
+        width: 100%;
+    }
+
+button{
+    cursor:pointer;
+    border-color: black;
+    border: none;
+    padding: 1rem;
+    color: black;
+    border-radius: 5px;
+    transition: all 0.5s;
+    font-size: 1rem;
+
+}
+>button:hover{
+    filter: drop-shadow(0px 25px 0px red) invert(15%);
+}
+
+&:hover{
+    transform: scale(1.1);
+}
+
+}
